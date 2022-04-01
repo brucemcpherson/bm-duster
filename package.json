@@ -1,0 +1,21 @@
+{
+  "name": "bm-duster",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "bruce mcpherson",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "devDependencies": {
+    "ava": "^4.1.0",
+    "stable-fn": "^3.0.0"
+  },
+  "dependencies": {
+    "deep-eql": "^4.0.1"
+  }
+}
